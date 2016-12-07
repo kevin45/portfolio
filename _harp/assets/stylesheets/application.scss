@@ -1,0 +1,136 @@
+body {
+      padding: 25px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      background: rgb(63, 77, 80);
+}
+
+.pure-g {
+      border: 5px solid whitesmoke;
+      margin-bottom: 25px;
+  box-shadow: 0px 10px 50px black;
+    margin-top: 10%;
+
+}
+
+
+.pure-u-1 {
+      box-sizing: border-box;
+      border: 5px solid whitesmoke;
+      padding:25px;
+      text-align: center;
+   
+  
+}
+
+.pure-u-2 {
+   box-sizing: border-box;
+      border: 10px solid whitesmoke;
+      padding: 25px;
+      text-align: center;
+      margin-top:10px;
+  height:200px;
+  width:300px;
+  
+  
+}
+
+#vak1{
+  background-color: rgb(140, 49, 51);
+}
+
+#vak2{
+  background-color: rgb(40, 70, 104);
+}
+
+#vak3{background-color: rgb(59, 102, 145);
+      font-size:0.5em;
+      }
+        
+#vak4{background-color: rgb(74, 125, 175);
+      font-size:0.5em;
+}
+
+h1 {
+      font-size: 4em;
+      color:whitesmoke;
+  font-family: 'Open Sans Condensed';
+  
+
+      
+}
+
+h2 {
+      font-size: 1.1em;
+      font-weight: 900;
+      margin-bottom: 25px;
+  font-family: 'Open Sans Condensed';
+}
+
+p {
+      margin-bottom: 25px;
+      font-size: 2em;
+
+      color:whitesmoke;
+  font-family: 'Open Sans Condensed';
+      
+}
+
+.icon1{
+  width:50px;
+}
+
+.icon2{
+  width:50px;
+}
+
+
+* { box-sizing: border-box; }
+
+
+.carousel {
+  background-color: rgb(140, 49, 51);
+  
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 400px;
+  margin-right: 10px;
+
+}
+
+.carousel-cell-image {
+  display: block;
+  max-height: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+  -webkit-transition: opacity 0.6s;
+          transition: opacity 0.6s;
+}
+
+/* fade in lazy loaded image */
+.carousel-cell-image.flickity-lazyloaded,
+.carousel-cell-image.flickity-lazyerror {
+  opacity:1;
+  border-radius: 20px;
+  margin-top:100px;
+
+}
+
+/* position dots in carousel */
+.flickity-page-dots {
+  bottom: 40px;
+  
+}
+/* white circles */
+.flickity-page-dots .dot {
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid whitesmoke;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: whitesmoke;
+}
